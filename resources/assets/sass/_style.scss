@@ -1,0 +1,36 @@
+html {
+  // overflow-y: hidden !important;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.vc-sketch {
+  color: #232323;
+}
+
+/* upload image */
+.vue-image-crop-upload {
+  .vicp-wrap {
+    background-color: #2b2a2a!important;
+    width: 100%!important;
+    height: 70%!important;
+  }
+}
+.vue-image-crop-upload .vicp-wrap .vicp-step3 .vicp-upload {
+  padding: 16px!important;
+}
+// .vue-image-crop-upload .vicp-wrap {
+//   background-color: #2b2a2a!important;
+// }
+.vue-image-crop-upload .vicp-wrap .vicp-step2 .vicp-crop .vicp-crop-right {
+  width: 225px;
+}
+.vue-image-crop-upload .vicp-wrap .vicp-step2 .vicp-crop .vicp-crop-right .vicp-preview .vicp-preview-item span {
+  color:#717070!important;
+  text-align: unset!important;
+}
+// .vue-image-crop-upload .vicp-wrap {
+//   width: 100%;
+// }
+/* END upload image */
